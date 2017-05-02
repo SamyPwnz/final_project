@@ -1,6 +1,12 @@
 var namespace = "http://www.w3.org/2000/svg"
-document.getElementById("car").setAttribute("src", "https://i.kinja-img.com/gawker-media/image/upload/s--VcPRKwnI--/c_scale,f_auto,fl_progressive,q_80,w_800/es1w5suub6gee4bbou40.gif")
 // DO NOT EDIT CODE BELOW THIS LINE!
+
+function changeCar(){
+document.getElementById("car").setAttribute("src", "https://i.kinja-img.com/gawker-media/image/upload/s--VcPRKwnI--/c_scale,f_auto,fl_progressive,q_80,w_800/es1w5suub6gee4bbou40.gif")
+}
+
+
+
 function getX(shape) {
   if (!shape) {
     throw "Uh oh, you tried to get the x coordinate of a shape that doesn't exist!"
