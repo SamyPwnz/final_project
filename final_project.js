@@ -2,11 +2,23 @@ var namespace = "http://www.w3.org/2000/svg"
 // DO NOT EDIT CODE BELOW THIS LINE!
 
 function changeCar(){
-document.getElementById("car").setAttribute("src", "https://i.kinja-img.com/gawker-media/image/upload/s--VcPRKwnI--/c_scale,f_auto,fl_progressive,q_80,w_800/es1w5suub6gee4bbou40.gif")
+document.getElementById("car2").setAttribute("src", "https://i.kinja-img.com/gawker-media/image/upload/s--VcPRKwnI--/c_scale,f_auto,fl_progressive,q_80,w_800/es1w5suub6gee4bbou40.gif")
 }
-
-
-
+function changeCarRed(){
+document.getElementById("car").setAttribute("src", "https://img.vehiclepad.com/e6a132f3cf9ca99ca7c2d9d2dc98d042_orange-1971-mustang-fastback-pinteres-1971-ford-mustang-fastback_889-539.jpeg")
+}
+function changeCarOrange(){
+document.getElementById("car3").setAttribute("src", "http://mustangattitude.com/mustang/1993/1993_00024_01.jpg")
+}
+function changeCarRed2(){
+document.getElementById("car4").setAttribute("src", "http://www.themotoringenthusiastjournal.com/photo_gallery/images/mustang_50/2004_mustang_cobra_mystichrome_10.jpg")
+}
+function changeCarBlack(){
+document.getElementById("car5").setAttribute("src", "https://www.cstatic-images.com/stock/605x403/74/img-1106902193-1469581224174.jpg")
+}
+function changeCarOrange2(){
+document.getElementById("car6").setAttribute("src", "http://roa.h-cdn.co/assets/17/03/980x490/landscape-1484594296-new-ford-mustang-v8-gt-with-performace-pack-in-orange-fury-2.jpg")
+}
 function getX(shape) {
   if (!shape) {
     throw "Uh oh, you tried to get the x coordinate of a shape that doesn't exist!"
