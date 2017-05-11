@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1>Facts About the Ford Mustang</h1>
   <img src="https://i.ytimg.com/vi/3dx4u8jCbU8/hqdefault.jpg">
-<p> </p>
+<p>The first Ford Mustang was a convertible model  with the VIN 5F08F100001. The car was used to be as a car to tour at Ford dealerships. But while it was at one of the Ford dealerships it waas accidently sold to a guy. The guy who bought it was a airplane pilot who kept it and drove for about 10,000 miles before giving it back   </p>
 
     <script src="final_project.js"></script>
   </body>
